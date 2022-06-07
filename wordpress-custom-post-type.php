@@ -21,7 +21,7 @@
  */
 
  
-class CUSTOM_POST_TYPE{
+class CUSTOM_POST_TYPE {
   /**
    * Construct is a function that autometically called by PHP before reading a classes other functions.
    * So you can configure any thing from here before functions execution
@@ -348,6 +348,7 @@ class CUSTOM_POST_TYPE{
 if( ! function_exists( 'custom_post_type_meta_box' ) ) {
   function custom_post_type_meta_box() {
     // Your metabox contents goes here.
+    // Here might contains custom fields, forms, and much more what you need
   }
 }
 
